@@ -1,0 +1,73 @@
+/* Implementar funte interna */
+
+@font-face{
+    font-family: 'sigma';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Sigmar-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Mom´sTyperwriter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/moment.ttf');
+}
+
+/* Implementar funte externa */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+h1{
+    font-family: "sigma", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+p{
+    font-family: 'Mom´sTyperwriter', serif;
+    font-size: 15px;
+    color: rgb(53, 31, 31);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.cita{
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+    color: #dc143c;
+    background-color: blueviolet;
+
+}
+
+.sombreado{
+    /* text-shadow: Xpx Ypx Difuminadorpx color; */
+    text-shadow: 2px 2px 4px red;
+    font-size: 30px;
+}
+
+.subrayado{
+    
+    text-decoration: line-through #c40f0f double;
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
+
+.minuscula{
+    text-transform: lowercase;
+}
+
+.capital{
+    text-transform: capitalize;
+}
+/* body{
+    font-family: 'Mom´sTyperwriter', serif;
+    font-size: 25px;
+    color: rgb(244, 24, 24);
+} */
+
