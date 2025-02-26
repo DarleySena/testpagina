@@ -65,9 +65,7 @@ p{
 .capital{
     text-transform: capitalize;
 }
-/* body{
-    font-family: 'Mom´sTyperwriter', serif;
-    font-size: 25px;
-    color: rgb(244, 24, 24);
-} */
+body{
+    background-color: green;
+} 
 
